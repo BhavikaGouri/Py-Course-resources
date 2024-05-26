@@ -1,1 +1,1 @@
-# Here are some interesting beginner/intermidiate level projects in python.
+# Here are some interesting beginner/intermediate level projects in python.
