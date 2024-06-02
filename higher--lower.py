@@ -1,7 +1,6 @@
 #display art
 import random
-
-from replit import clear
+import os
 
 logo = """
   _   _            _                      _                                    
@@ -346,7 +345,7 @@ while(True):
   if choice == ans:
     acc1 = acc2
     score += 1
-    clear()
+    os.system('clear')
   else:
     print(f"Your score is : {score}")
     break
