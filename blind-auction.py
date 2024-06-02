@@ -23,12 +23,12 @@ while(choice == 'yes'):
   name = input("What is your name? :")
   bid = input("What is your bid? $")
   choice = input("Want to bid more? Type 'yes' or 'no'").lower()
-  if choice == 'no':
-    break
   def add_bid(name, bid):
     bid_dict[name] = bid
   add_bid(name,bid)
   os.system('clear')
+  if choice == 'no':
+    break
 
 def winner_bid():
   max_bid = 0
