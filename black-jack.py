@@ -87,6 +87,8 @@ while play == "true":
   #function to check who is the winner
   
   def Winner(user_score, computer_score):
+    if user_score > 21 and computer_score > 21:
+      return "Draw"
     if user_score > computer_score and user_score <= 21:
       return "You Win"
     elif user_score < computer_score and computer_score <= 21:
