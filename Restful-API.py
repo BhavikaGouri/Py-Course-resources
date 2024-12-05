@@ -2,7 +2,7 @@ import requests
 from flask import Flask, jsonify
 
 app = Flask(__name__)
-API = "7a4389fffc281ad23e73f8a5"
+API = "<YOUR API KEY>"
 
 
 @app.route("/", methods=['GET'])
